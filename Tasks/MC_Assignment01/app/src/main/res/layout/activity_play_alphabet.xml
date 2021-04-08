@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayAlphabets"
+    android:background="@drawable/bg2"
+>
+
+    <ImageView
+        android:id="@+id/aImage"
+        android:layout_width="75dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="aClicked"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a" />
+
+    <ImageView
+        android:id="@+id/bImage"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:onClick="bClicked"
+        app:layout_constraintStart_toEndOf="@+id/aImage"
+        app:layout_constraintTop_toTopOf="@+id/aImage"
+        app:srcCompat="@drawable/b" />
+
+    <ImageView
+        android:id="@+id/cImage"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:onClick="cClicked"
+        app:layout_constraintStart_toEndOf="@+id/bImage"
+        app:layout_constraintTop_toTopOf="@+id/bImage"
+        app:srcCompat="@drawable/c" />
+
+    <ImageView
+        android:id="@+id/dImage"
+        android:layout_width="65dp"
+        android:layout_height="72dp"
+        android:onClick="dClicked"
+        app:layout_constraintStart_toEndOf="@+id/cImage"
+        app:layout_constraintTop_toTopOf="@+id/cImage"
+        app:srcCompat="@drawable/d" />
+    <ImageView
+        android:id="@+id/eImage"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:onClick="eClicked"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/aImage"
+        app:layout_constraintTop_toBottomOf="@+id/aImage"
+        app:srcCompat="@drawable/e" />
+
+    <ImageView
+        android:id="@+id/fImage"
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="fClicked"
+        app:layout_constraintStart_toEndOf="@+id/eImage"
+        app:layout_constraintTop_toBottomOf="@+id/bImage"
+        app:srcCompat="@drawable/f" />
+
+    <ImageView
+        android:id="@+id/gImage"
+        android:layout_width="75dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="gClicked"
+        app:layout_constraintStart_toEndOf="@+id/fImage"
+        app:layout_constraintTop_toBottomOf="@+id/cImage"
+        app:srcCompat="@drawable/g" />
+
+    <ImageView
+        android:id="@+id/hImage"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="hClicked"
+        app:layout_constraintEnd_toEndOf="@+id/dImage"
+        app:layout_constraintStart_toEndOf="@+id/gImage"
+        app:layout_constraintTop_toBottomOf="@+id/dImage"
+        app:srcCompat="@drawable/h" />
+    <ImageView
+        android:id="@+id/iImage"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:onClick="iClicked"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/eImage"
+        app:layout_constraintTop_toBottomOf="@+id/eImage"
+        app:srcCompat="@drawable/i" />
+
+    <ImageView
+        android:id="@+id/jImage"
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="jClicked"
+        app:layout_constraintStart_toEndOf="@+id/iImage"
+        app:layout_constraintTop_toBottomOf="@+id/fImage"
+        app:srcCompat="@drawable/j" />
+
+    <ImageView
+        android:id="@+id/kImage"
+        android:layout_width="75dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="kClicked"
+        app:layout_constraintStart_toEndOf="@+id/jImage"
+        app:layout_constraintTop_toBottomOf="@+id/gImage"
+        app:srcCompat="@drawable/k" />
+
+    <ImageView
+        android:id="@+id/lImage"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="lClicked"
+        app:layout_constraintEnd_toEndOf="@+id/dImage"
+        app:layout_constraintStart_toEndOf="@+id/kImage"
+        app:layout_constraintTop_toBottomOf="@+id/hImage"
+        app:srcCompat="@drawable/l" />
+    <ImageView
+        android:id="@+id/mImage"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:onClick="mClicked"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/iImage"
+        app:layout_constraintTop_toBottomOf="@+id/iImage"
+        app:srcCompat="@drawable/m" />
+
+    <ImageView
+        android:id="@+id/nImage"
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:onClick="nClicked"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/mImage"
+        app:layout_constraintTop_toBottomOf="@+id/jImage"
+        app:srcCompat="@drawable/n" />
+
+    <ImageView
+        android:id="@+id/oImage"
+        android:layout_width="75dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="oClicked"
+        app:layout_constraintStart_toEndOf="@+id/nImage"
+        app:layout_constraintTop_toBottomOf="@+id/kImage"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/pImage"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="pClicked"
+        app:layout_constraintStart_toEndOf="@+id/oImage"
+        app:layout_constraintTop_toBottomOf="@+id/lImage"
+        app:srcCompat="@drawable/p" />
+    <ImageView
+        android:id="@+id/qImage"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:onClick="qClicked"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/mImage"
+        app:layout_constraintTop_toBottomOf="@+id/mImage"
+        app:srcCompat="@drawable/q" />
+
+    <ImageView
+        android:id="@+id/rImage"
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="rClicked"
+        app:layout_constraintStart_toEndOf="@+id/qImage"
+        app:layout_constraintTop_toBottomOf="@+id/nImage"
+        app:srcCompat="@drawable/r" />
+
+    <ImageView
+        android:id="@+id/sImage"
+        android:layout_width="75dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="sClicked"
+        app:layout_constraintStart_toEndOf="@+id/rImage"
+        app:layout_constraintTop_toBottomOf="@+id/oImage"
+        app:srcCompat="@drawable/s" />
+
+    <ImageView
+        android:id="@+id/tImage"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="tClicked"
+        app:layout_constraintStart_toEndOf="@+id/sImage"
+        app:layout_constraintTop_toBottomOf="@+id/pImage"
+        app:srcCompat="@drawable/t" />
+    <ImageView
+        android:id="@+id/uImage"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:onClick="uClicked"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/qImage"
+        app:layout_constraintTop_toBottomOf="@+id/qImage"
+        app:srcCompat="@drawable/u" />
+
+    <ImageView
+        android:id="@+id/vImage"
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="vClicked"
+        app:layout_constraintStart_toEndOf="@+id/uImage"
+        app:layout_constraintTop_toBottomOf="@+id/rImage"
+        app:srcCompat="@drawable/v" />
+
+    <ImageView
+        android:id="@+id/wImage"
+        android:layout_width="75dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="wClicked"
+        app:layout_constraintStart_toEndOf="@+id/vImage"
+        app:layout_constraintTop_toBottomOf="@+id/sImage"
+        app:srcCompat="@drawable/w" />
+
+    <ImageView
+        android:id="@+id/xImage"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="xClicked"
+        app:layout_constraintStart_toEndOf="@+id/wImage"
+        app:layout_constraintTop_toBottomOf="@+id/tImage"
+        app:srcCompat="@drawable/x" />
+    <ImageView
+        android:id="@+id/yImage"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:onClick="yClicked"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/vImage"
+        app:layout_constraintTop_toBottomOf="@+id/vImage"
+        app:srcCompat="@drawable/y" />
+
+    <ImageView
+        android:id="@+id/zImage"
+        android:layout_width="81dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:onClick="zClicked"
+        app:layout_constraintStart_toEndOf="@+id/yImage"
+        app:layout_constraintTop_toBottomOf="@+id/wImage"
+        app:srcCompat="@drawable/z" />
+</androidx.constraintlayout.widget.ConstraintLayout>
